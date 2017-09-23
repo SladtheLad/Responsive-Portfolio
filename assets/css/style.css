@@ -1,0 +1,37 @@
+body {
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    height: 150px;
+    border-color: #cccccc;
+    
+}
+
+footer {
+    background-color: #666666;
+    height: 100px;
+}
+
+h1 {
+    color: #ebf2e0;
+}
+
+#heading1 {
+    padding: 25px;
+    top: 150px;
+    left: 200px;
+    margin: 0;
+    background-color: #4aaaa5;
+}
+
+.maincontent {
+    width: 960px;
+
+}
+
+.floatleft {
+    float: left;
+}
