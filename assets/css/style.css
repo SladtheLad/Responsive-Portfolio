@@ -238,31 +238,26 @@ input[type=submit] {
   border: 0 none;
 }
 
-
-
 @media screen and (max-width: 640px) {
-
   header {
-   position: static;
+    position: static;
   }
 
   #logo {
-   width: 100%;
+    width: 100%;
   }
  
   nav {
-   width: 100%;
-   text-align: center;
-   margin: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
   }
-
-
-
+  
   .main-section {
-   float: none;
-   max-width: 575px;
-   margin-top: 50px;
-   margin-left: 20px;
+    float: none;
+    max-width: 575px;
+    margin-top: 50px;
+    margin-left: 20px;
   }
 
   .sidebar {
@@ -271,11 +266,11 @@ input[type=submit] {
     margin-left: 20px;
   }
 
-   .auth-image {
-   width: 100%;
-   margin-bottom: 20px;
+  .auth-image {
+    width: 100%;
+    margin-bottom: 20px;
   }
- 
+
 }
 
 @media screen and (max-width: 768px) {
@@ -291,13 +286,13 @@ input[type=submit] {
   }
    
   .main-section {
-   float: none;
-   width: 100%;
-   max-width: 720px;
-   margin-left: 15px;
+    float: none;
+    width: 100%;
+    max-width: 720px;
+    margin-left: 15px;
   }  
 
- .sidebar {
+  .sidebar {
     float: none;
     width: 100%;
     max-width: 720px;
@@ -323,9 +318,9 @@ input[type=submit] {
   }
  
   .main-section {
-   float: left;
-   max-width: 400px;
-   margin-left: 100px;
+    float: left;
+    max-width: 400px;
+    margin-left: 100px;
   }
 
   .sidebar {
@@ -333,12 +328,9 @@ input[type=submit] {
     margin-right: 100px;
   }
 
-   .auth-image {
-   width: 100%;
-   margin-bottom: 20px;
+  .auth-image {
+    width: 100%;
+    margin-bottom: 20px;
   }
 
 }
-
-
-
