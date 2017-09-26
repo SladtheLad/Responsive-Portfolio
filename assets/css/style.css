@@ -271,9 +271,14 @@ input[type=submit] {
     margin-bottom: 20px;
   }
 
+  .work {
+    float: none;
+    width: 100%;
+  }
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
 
   #logo {
     line-height: 40px;
@@ -306,7 +311,7 @@ input[type=submit] {
   
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 769px) and (max-width: 980px) {
  
   #logo {
     line-height: 40px;
