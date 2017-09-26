@@ -244,48 +244,100 @@ input[type=submit] {
 
   header {
    position: static;
- }
+  }
 
- #logo {
+  #logo {
    width: 100%;
- }
+  }
  
- nav {
+  nav {
    width: 100%;
    text-align: center;
    margin: 20px;
- }
+  }
 
 
 
- .main-section {
+  .main-section {
    float: none;
    max-width: 575px;
    margin-top: 50px;
    margin-left: 20px;
- }
- .sidebar {
+  }
+
+  .sidebar {
     float: none;
     max-width: 575px;
     margin-left: 20px;
- }
+  }
 
- .auth-image {
+   .auth-image {
    width: 100%;
    margin-bottom: 20px;
- }
+  }
  
 }
 
 @media screen and (max-width: 768px) {
-  #masthead {
-    
+
+  #logo {
+    line-height: 40px;
+    width: 250px;
+    margin-left: 20px;
   }
+
+  nav {
+    margin-right: 20px;
+  }
+   
+  .main-section {
+   float: none;
+   width: 100%;
+   max-width: 720px;
+   margin-left: 15px;
+  }  
+
+ .sidebar {
+    float: none;
+    width: 100%;
+    max-width: 720px;
+    margin-left: 15px;
+  }
+
+  .auth-image {
+    width: 300px;
+    height: 250px;
+  }
+  
 }
 
 @media screen and (max-width: 980px) {
  
+  #logo {
+    line-height: 40px;
+    margin-left: 100px;
+  }
+
+  nav {
+    margin-right: 100px;
+  }
  
+  .main-section {
+   float: left;
+   max-width: 400px;
+   margin-left: 100px;
+  }
+
+  .sidebar {
+    float: right;
+    margin-right: 100px;
+  }
+
+   .auth-image {
+   width: 100%;
+   margin-bottom: 20px;
+  }
+
 }
 
 
